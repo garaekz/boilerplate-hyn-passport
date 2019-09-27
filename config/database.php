@@ -68,7 +68,7 @@ return [
             'port' => env('TENANCY_PORT', '3306'),
             'database' => env('TENANCY_DATABASE', 'tenant2'),
             'username' => env('TENANCY_USERNAME', 'root'),
-            'password' => env('TENANCY_PASSWORD', 'bee123'),
+            'password' => env('TENANCY_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
